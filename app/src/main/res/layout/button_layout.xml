@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_margin="4dp">
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/soundButton"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/buttonText"
+        android:textAlignment="center"
+        android:text="Sound 1"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|center_horizontal"
+        />
+</FrameLayout>
